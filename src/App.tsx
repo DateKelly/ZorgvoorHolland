@@ -570,9 +570,8 @@ function App() {
       <nav className="bg-white shadow-md">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
-            <Link to="/" className="flex items-center space-x-2" onClick={closeMenu}>
-              <Logo className="w-8 h-8" />
-              <span className="text-xl font-bold text-orange-500">Zorg voor Holland</span>
+          <Link to="/" className="flex items-center space-x-2" onClick={closeMenu}>
+              <Logo className="w-40" />
             </Link>
             
             {/* Desktop Navigation */}
